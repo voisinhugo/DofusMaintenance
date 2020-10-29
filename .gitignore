@@ -1,0 +1,4 @@
+node_modules/*
+
+discord/auth.json
+twitter/auth.json

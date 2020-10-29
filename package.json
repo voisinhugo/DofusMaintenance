@@ -1,0 +1,14 @@
+{
+  "name": "dofus_maintenance_check",
+  "version": "1.0.0",
+  "description": "This project provides tools to check automatically if the MMORPG Dofus has finished its weekly maintenance.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Hugo Voisin",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
