@@ -4,7 +4,7 @@ const twitterCredentials = require('./auth.json');
 const BEARER_TOKEN = twitterCredentials.bearer_token;
 
 const getLastTweetFrom = async (twitterAccount) => {
-  const url = `https://api.twitter.com/2/tweets/search/recent?query=from:${twitterAccount}&tweet.fields=referenced_tweets`;
+  const url = `https://api.twitter.com/2/tweets/search/recent?query=from:${twitterAccount}&tweet.fields=referenced_tweets,created_at`;
   const params = {
     headers: {
       Authorization: `Bearer ${BEARER_TOKEN}`
